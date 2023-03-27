@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -73,6 +77,54 @@
   }
 }
 
+@font-face {
+  font-family: "GilroyBlack";
+  src: url("../public/fonts/Gilroy-Black.ttf");
+}
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../public/fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: url("../public/fonts/Gilroy-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "GilroyHeavy";
+  src: url("../public/fonts/Gilroy-Heavy.ttf");
+}
+@font-face {
+  font-family: "GilroyLight";
+  src: url("../public/fonts/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("../public/fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "GilroyRegular";
+  src: url("../public/fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: "GilroySemiBold";
+  src: url("../public/fonts/Gilroy-SemiBold.ttf");
+}
+@font-face {
+  font-family: "GilroyThin";
+  src: url("../public/fonts/Gilroy-Thin.ttf");
+}
+@font-face {
+  font-family: "GilroyUltraLight";
+  src: url("../public/fonts/Gilroy-UltraLight.ttf");
+}
+@font-face {
+  font-family: "MonumentExtended-Ultrabold";
+  src: url("../public/fonts/MonumentExtended-Ultrabold.otf");
+}
+@font-face {
+  font-family: "MonumentExtended-Regular";
+  src: url("../public/fonts/MonumentExtended-Regular.otf");
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -82,6 +134,8 @@
 html,
 body {
   max-width: 100vw;
+  background-color: black;
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
@@ -104,4 +158,103 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.purple-text {
+  color: magenta;
+}
+.gray-text {
+  color: rgb(102, 102, 102);
+}
+.brand-bg {
+  background: linear-gradient(90deg, #ebb767 1.25%, #ea49e0 100%);
+}
+
+.back:hover {
+  background: linear-gradient(90deg, #ebb66736 1.25%, #ea49df56 100%);
+}
+.back-white:hover {
+  background: rgba(255, 255, 255, 0.678);
+}
+
+.frosted {
+  background: rgba(58, 57, 57, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+}
+
+h1 {
+  font-family: "GilroySemibold";
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+}
+h2 {
+  font-family: "GilroySemibold";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+h3 {
+  font-family: "GilroySemibold";
+  font-size: 2.4rem;
+  line-height: 1.5;
+  color: white;
+}
+h4 {
+  font-family: "GilroySemibold";
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: white;
+}
+p {
+  font-family: "GilroySemibold";
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-outline {
+  outline: 1px solid #66666680;
+}
+
+.dark-gradient {
+  background: linear-gradient(
+    179.13deg,
+    rgba(255, 255, 255, 0) 16.75%,
+    #000000 94.4%
+  );
+}
+
+.black-text-gradient {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 79.83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.brand-gradient-card {
+  background: linear-gradient(269.79deg, #fb44d5 0.2%, #f5b05c 99.83%);
+}
+.invert-text-color {
+  mix-blend-mode: difference;
+}
+.gradient-card {
+  background: linear-gradient(0deg, #313335 50.25%, rgb(161, 161, 161) 110%);
+}
+.white-gradient {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #ffffff 40%);
+}
+.brand-gradient {
+  background: linear-gradient(150.68deg, #E38833 7.96%, #AE3486 98.08%);
+}
+.ui-grad {
+  background: linear-gradient(150.68deg, #34ECF0 7.96%, #628AE1 98.08%);
 }
