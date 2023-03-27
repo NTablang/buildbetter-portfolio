@@ -258,3 +258,7 @@ p {
 .ui-grad {
   background: linear-gradient(150.68deg, #34ECF0 7.96%, #628AE1 98.08%);
 }
+.point-h1 {
+  font-weight: 700;
+  font-family: "GilroyBold";
+}

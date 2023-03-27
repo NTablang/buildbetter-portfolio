@@ -26,7 +26,7 @@ function Personal() {
           <p className="gray-text mt-5  ml-2">
             I am proud to say that I wear a lot of hats with my past
             collaborations. Since I was younger, I've always been used to doing
-            stuff on my own, and I've always being a self-starter.
+            stuff on my own, and I've always been a self-starter.
             <br />
             <br />I don't know how this happened but I tend to always give
             feedback to things that may not even be related to my field of

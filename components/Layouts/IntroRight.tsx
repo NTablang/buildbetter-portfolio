@@ -17,11 +17,15 @@ function IntroRight() {
         />
       </div>
       <h4 className="text-center leading-8">
-        The teams I've collaborated with in the past spend about 40% of
-        time goofing around with user research and talking to people they plan to date.
+        Being able to hack something out of pure curiosity is one of the most
+        consistently rewarding things I've ever done. I've taught myself a lot
+        of things when it comes to programming and I've been growing to fit the
+        best practices.
       </h4>
       <Divider />
-      <h4 className="text-center font-monumentExtended text-[magenta]">I plan to raise it <br/>up to 80%</h4>
+      <h4 className="text-center text-[1rem] font-monumentExtended text-[magenta]">
+        TLDR: when I choose to do something, I do it with all my heart.
+      </h4>
     </div>
   );
 }

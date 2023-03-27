@@ -7,6 +7,8 @@ import FeatureOneLeft from "../Subsections/FeatureOne/FeatureOneLeft";
 import FeatureOneRight from "../Subsections/FeatureOne/FeatureOneRight";
 import StatPoint from "../StatPoint";
 import TechStack from "../Subsections/Skills/TechStack";
+import ToolTip from "../ToolTip";
+import Compatibility from "../Subsections/Skills/Compatibility";
 
 function Skills() {
   const ref = useRef(null);
@@ -34,7 +36,7 @@ function Skills() {
             with. I honestly don't know what passion means but I've always lost
             track of time implementing front-end stuff.
           </p>
-          <div className="bg-black w-full h-[350px] flex flex-row gap-4 rounded-2xl drop-shadow-2xl mb-10">
+          <div className="bg-black w-full h-[350px] flex flex-row gap-4 rounded-2xl drop-shadow-2xl mb-10 relative">
             <div className=" w-full md:w-[40%] h-full p-8 flex justify-around flex-col py-24">
               <p>Versatile Coder</p>
               <p className="opacity-70 tracking-tighter">
@@ -42,6 +44,9 @@ function Skills() {
                 within the realm of web dev't, but also on mobile and desktop
                 applications.
               </p>
+              <ToolTip buttonText="Compatibility Check">
+                <Compatibility />
+              </ToolTip>
             </div>
             <motion.div
               className={`gradient-card drop-shadow-xl w-[50%] md:flex hidden z-[3] rounded-xl p-10`}
@@ -58,8 +63,14 @@ function Skills() {
           rightPane={<FeatureOneRight />}
         />
         <div className="center flex-col md:flex-row gap-12 text-black mt-12">
-          <StatPoint header={"A lot"} subtitle={"of times having fun making the product"} />
-          <StatPoint header={"Intentional"} subtitle={`about your product ${"\n"}(see modest intentions)`} />
+          <StatPoint
+            header={"A lot"}
+            subtitle={"of times having fun making the product"}
+          />
+          <StatPoint
+            header={"Intentional"}
+            subtitle={`about your product ${"\n"}(see modest intentions)`}
+          />
           <StatPoint header={"1x"} subtitle={"more FE help"} />
         </div>
       </PaddingMedium>

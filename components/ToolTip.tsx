@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 
 type ToolTipProps = {
   buttonText: string;
-  modalText: string;
+  modalText?: string;
+  children?: React.ReactNode;
 };
 
-function ToolTip({ buttonText, modalText }: ToolTipProps) {
+function ToolTip({ buttonText, modalText, children }: ToolTipProps) {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
-    console.log("isVisible: ", isVisible)
+    console.log("isVisible: ", isVisible);
   });
   return (
     <>
@@ -22,7 +23,7 @@ function ToolTip({ buttonText, modalText }: ToolTipProps) {
       {isVisible && (
         <div
           className="fixed w-[80%] md:w-[60%] h-[80%] self-center bg-[#F9F7F5] rounded-xl 
-      drop-shadow-md p-4 border hover:border-[#666666] transition-all"
+      drop-shadow-md p-4 border hover:border-[#666666] transition-all z-[99999]"
         >
           <div
             className="w-[10%] ml-[auto]"
@@ -31,7 +32,8 @@ function ToolTip({ buttonText, modalText }: ToolTipProps) {
             <p className="text-black cursor-pointer ml-2">x</p>
           </div>
           <p className="text-black whitespace-pre-wrap mt-4 text-xs truncate  pr-8">
-            {modalText}
+            {!children && modalText}
+            {children}
           </p>
         </div>
       )}
