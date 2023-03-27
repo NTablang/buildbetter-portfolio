@@ -35,7 +35,7 @@ function HeroLayout() {
           <div className="flex flex-row gap-3 items-center">
             <FaPhoneAlt className="text-[gray]" />
             <div className="text-base font-gilroyBold -tracking-normal">
-              +1 301-377-3076
+              +1 xxx-xxx-xxxx
             </div>
           </div>
         </div>

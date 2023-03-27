@@ -27,7 +27,7 @@ function Connect() {
                     className="w-[35px] h-[35px] object-cover"
                   />
                 </div>
-                <p className="text-black text-2xl mt-4">+1 (301) 377-3076</p>
+                <p className="text-black text-2xl mt-4">+1 (xxx) xxx-xxxx</p>
                 <p className="text-black opacity-60 text-base font-gilroyBold">
                   Anytime really.
                 </p>
@@ -35,7 +35,7 @@ function Connect() {
                   Don't be shy to just call or send me a message :)
                 </p>
                 <a
-                  href={"tel: 1-301-377-3076"}
+                  href={"tel: 1-xxx-xxx-xxxx"}
                   className="inline mr-[auto]  mt-12"
                 >
                   <BrandButton text="Call Me!" />
