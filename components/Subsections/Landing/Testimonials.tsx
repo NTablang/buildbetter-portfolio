@@ -33,7 +33,7 @@ function Testimonials() {
                 "https://media.licdn.com/dms/image/C4E03AQE-GcOQBBssBQ/profile-displayphoto-shrink_400_400/0/1607212698863?e=1685577600&v=beta&t=WvZLTP72iE4Ig4A0cVjNoxYqrJDqvsnJxjjqSOQuGJk"
               }
               text={zach}
-              subHeader={"Zach Lefkovitz, SWE Intern at Cranius"}
+              subHeader={"Zach Lefkovitz, SWE Intern at CraniUS"}
               link={"https://www.linkedin.com/in/zach-lefkovitz/"}
               alignment={"left"}
             />
