@@ -23,7 +23,7 @@ function Testimonials() {
               text={anaum}
               subHeader={"Anaum Khan, Learn Prompting Co-Founder"}
               subTitle={
-                "A prompt engineering ed tech platform with 250k+ users"
+                "A prompt engineering ed tech platform with 400k+ users"
               }
               link={"https://www.linkedin.com/in/anaumkhan/"}
               alignment={"left"}
@@ -33,7 +33,7 @@ function Testimonials() {
                 "https://media.licdn.com/dms/image/C4E03AQE-GcOQBBssBQ/profile-displayphoto-shrink_400_400/0/1607212698863?e=1685577600&v=beta&t=WvZLTP72iE4Ig4A0cVjNoxYqrJDqvsnJxjjqSOQuGJk"
               }
               text={zach}
-              subHeader={"Zach Lefkovitz, EY Consultant, SWE Intern at Cranius"}
+              subHeader={"Zach Lefkovitz, SWE Intern at Cranius"}
               link={"https://www.linkedin.com/in/zach-lefkovitz/"}
               alignment={"left"}
             />
@@ -53,7 +53,7 @@ function Testimonials() {
               mediaHeaderSrc={
                 "https://media.giphy.com/media/26BkMadvsqSlAJdkY/giphy.gif"
               }
-              text={"So glad to have you on the team!"}
+              text={"So glad to chat with you!"}
               subHeader={"You"}
               subTitle={`... sometime in the future ${"\n"} (if you're into that)`}
               alignment={"right"}

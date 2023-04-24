@@ -16,8 +16,7 @@ function HeroLayout() {
           </div>
           <div className=" tracking-normal text-sm text-center my-2 mb-4 md:px-96">
             <span className="text-2xl">🦸 </span> i got so intrigued with your
-            landing page that i decided to make my own rendition of it to
-            showcase my frontend skills
+            landing page that i decided to make my own rendition of it
           </div>
           <a href={"mailto: nathantablang@yahoo.com"}>
             <BrandButton text={"Send Email!"} size={"lg"} />

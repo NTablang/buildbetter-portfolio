@@ -8,13 +8,11 @@ function InterestDescription() {
   const [ref, inView] = useInView();
 
   const description = [
-    "I had a cool fun talk with Spencer about this",
-    " and honestly he's actually a funny guy. ",
-    "From my brief time with him, I've learned something about ",
-    "kickstarting a startup and managing one. ",
-    "He's someone that I feel like I can learn a lot from and part ",
-    "of why I'm interested with BuildBetter is because I would simply ",
-    "want to work with someone like him."
+
+    "I really cannot wait just to build something that brings value!",
+    "I am not the best techie out there, but I am a fast learner and ",
+    "amongst all, I often find myself trusting and being one with the process.",
+
   ];
 
   // settings

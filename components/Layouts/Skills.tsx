@@ -44,9 +44,9 @@ function Skills() {
                 within the realm of web dev't, but also on mobile and desktop
                 applications.
               </p>
-              <ToolTip buttonText="Compatibility Check">
+              {/* <ToolTip buttonText="Compatibility Check">
                 <Compatibility />
-              </ToolTip>
+              </ToolTip> */}
             </div>
             <motion.div
               className={`gradient-card drop-shadow-xl w-[50%] md:flex hidden z-[3] rounded-xl p-10`}
@@ -65,11 +65,11 @@ function Skills() {
         <div className="center flex-col md:flex-row gap-12 text-black mt-12">
           <StatPoint
             header={"A lot"}
-            subtitle={"of times having fun making the product"}
+            subtitle={"of times having fun making any product"}
           />
           <StatPoint
             header={"Intentional"}
-            subtitle={`about your product ${"\n"}(see modest intentions)`}
+            subtitle={`about any product I build ${"\n"}(see modest intentions)`}
           />
           <StatPoint header={"1x"} subtitle={"more FE help"} />
         </div>

@@ -65,12 +65,10 @@ function Experience() {
             behavior, or even the question of who really our demographic was.
             <br />
             <br />
-            This might be a bit cliche, but I truly did wish I came across a
-            tool like BuildBetter. We could've had our research more organized,
-            all congregated in one place so we could analyze things better. I'm
-            interested with working on something like BuildBetter, because I
-            would hate to see future ventures making the same mistakes I did and
-            losing time and energy in the process.
+            This might be a bit cliche, but ever since then I&apos;ve now been very
+            purposeful and mindful about anything that I build. I&apos;ve learned how
+            to lean more customer-centric as opposed to product-centric, but as a builder
+            it&apos;s kinda tough. I&apos;m still learning how to balance the two.
           </p>
           <div className="bg-black w-full h-[350px] flex flex-row gap-4 rounded-2xl mb-10 mt-20">
             <div className=" w-full md:w-[55%] h-full p-8 flex justify-around flex-col py-24">
