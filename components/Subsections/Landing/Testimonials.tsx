@@ -18,7 +18,7 @@ function Testimonials() {
           <div className="md:w-[50%]">
             <TestimonialBubble
               mediaHeaderSrc={
-                "https://media.licdn.com/dms/image/C4D03AQF2S461IVnyaQ/profile-displayphoto-shrink_400_400/0/1645829110782?e=1685577600&v=beta&t=2CnYO2pKUp4-YXLGCV2javBh-yDmAotMZ6nfj3b-6MU"
+                "https://media.licdn.com/dms/image/C4D03AQF2S461IVnyaQ/profile-displayphoto-shrink_400_400/0/1645829110782?e=1691020800&v=beta&t=ZcFKGIHZwtK_KhBcendklTUs1gmfIK0gz9heWI6WSEc"
               }
               text={anaum}
               subHeader={"Anaum Khan, Learn Prompting Co-Founder"}
@@ -30,7 +30,7 @@ function Testimonials() {
             />
             <TestimonialBubble
               mediaHeaderSrc={
-                "https://media.licdn.com/dms/image/C4E03AQE-GcOQBBssBQ/profile-displayphoto-shrink_400_400/0/1607212698863?e=1685577600&v=beta&t=WvZLTP72iE4Ig4A0cVjNoxYqrJDqvsnJxjjqSOQuGJk"
+                "https://media.licdn.com/dms/image/C4E03AQE-GcOQBBssBQ/profile-displayphoto-shrink_400_400/0/1607212698863?e=1691020800&v=beta&t=tQBYypkNWntYOQAL5FfBY5ZsB8lELpnEBAFUEeoomdM"
               }
               text={zach}
               subHeader={"Zach Lefkovitz, SWE Intern at CraniUS"}
@@ -41,7 +41,7 @@ function Testimonials() {
           <div className="md:w-[50%] md:pt-96">
             <TestimonialBubble
               mediaHeaderSrc={
-                "https://media.licdn.com/dms/image/C4D03AQEvfynipp5MmQ/profile-displayphoto-shrink_400_400/0/1641009963977?e=1685577600&v=beta&t=KYs6ObWbKo4wX8IaBketVRcNroG0cszbVOZLWa8Syc4"
+                "https://media.licdn.com/dms/image/C4D03AQEvfynipp5MmQ/profile-displayphoto-shrink_100_100/0/1641009963977?e=1691020800&v=beta&t=qivQea6B8zaA4N1ZS_N4oNgKlcIk4bS2xOGUVHDd77M"
               }
               text={kamal}
               subHeader={"Kestrel Co-Founder"}

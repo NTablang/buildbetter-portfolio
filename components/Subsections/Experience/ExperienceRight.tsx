@@ -9,7 +9,7 @@ function ExperienceRight() {
           I attended community college for two years before transferring at my
           current uni. I remember I didn't know much about tech and in fact I
           was working as a{" "}
-          <a href={"https://nathantablang.com/personal/archives/starbucks"}>
+          <a href={"https://nathantablang.com/personal/blogs/archives/starbucks"}>
           <span className="text-white hover:underline transition-all cursor-pointer">
             Starbucks Barista.
           </span></a>{
