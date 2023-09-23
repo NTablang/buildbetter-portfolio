@@ -18,7 +18,7 @@ function Testimonials() {
           <div className="md:w-[50%]">
             <TestimonialBubble
               mediaHeaderSrc={
-                "https://media.licdn.com/dms/image/C4D03AQF2S461IVnyaQ/profile-displayphoto-shrink_400_400/0/1645829110782?e=1691020800&v=beta&t=ZcFKGIHZwtK_KhBcendklTUs1gmfIK0gz9heWI6WSEc"
+                "https://media.licdn.com/dms/image/C4D03AQF2S461IVnyaQ/profile-displayphoto-shrink_400_400/0/1645829110782?e=1700697600&v=beta&t=xLj_LFX_6_tNekQxhGh9mhTXbFkRLFSNZMKdJMp47XA"
               }
               text={anaum}
               subHeader={"Anaum Khan, Learn Prompting Co-Founder"}
@@ -30,7 +30,7 @@ function Testimonials() {
             />
             <TestimonialBubble
               mediaHeaderSrc={
-                "https://media.licdn.com/dms/image/C4E03AQE-GcOQBBssBQ/profile-displayphoto-shrink_400_400/0/1607212698863?e=1691020800&v=beta&t=tQBYypkNWntYOQAL5FfBY5ZsB8lELpnEBAFUEeoomdM"
+                "https://media.licdn.com/dms/image/D5603AQFrKxGW01UVTA/profile-displayphoto-shrink_400_400/0/1690565840515?e=1700697600&v=beta&t=AbouO5Txo_X76dz6_iAsz8L22LdndPJs4UQMymOrdhM"
               }
               text={zach}
               subHeader={"Zach Lefkovitz, SWE Intern at CraniUS"}
@@ -41,7 +41,7 @@ function Testimonials() {
           <div className="md:w-[50%] md:pt-96">
             <TestimonialBubble
               mediaHeaderSrc={
-                "https://media.licdn.com/dms/image/C4D03AQEvfynipp5MmQ/profile-displayphoto-shrink_100_100/0/1641009963977?e=1691020800&v=beta&t=qivQea6B8zaA4N1ZS_N4oNgKlcIk4bS2xOGUVHDd77M"
+                "https://media.licdn.com/dms/image/D5603AQHU8ViKSqQiGQ/profile-displayphoto-shrink_400_400/0/1693591132319?e=1700697600&v=beta&t=_FmPS9I88NVq_DwTbsW2xaq2oTJLw2eQXD4H6-H4vro"
               }
               text={kamal}
               subHeader={"Kestrel Co-Founder"}
